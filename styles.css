@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(34, 32, 32);
+    color: #ffffff;
+    margin-left: 0%;
+    margin-right:0%;
+  }
+
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+
+  }
+
+  .registrarme {
+ 
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  .regisform {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .menus {
+    padding: 1em;
+
+  }
+
+  .contacto {
+    padding: 1em;
+    display: flex;
+
+
+  }
+
+  .subtitulo {
+    padding: 1em;
+
+
+  }
+
+
+ .cdsimg {
+    display: flex;
+    gap: 50px; 
+    margin-left: 55px}
+
+ .descuento {
+    
+
+
+ }
+
+ .discos {
+
+
+ }
+
+ .recomendados {
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ .agregadosrecientes {
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }
+
+ .masvendidos {
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ }

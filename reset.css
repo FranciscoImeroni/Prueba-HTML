@@ -1,0 +1,87 @@
+/* Reset.css */
+
+/* Box-sizing border-box por defecto para todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Margin y padding a 0 para todos los elementos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+button,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fuentes por defecto a 1em y line-height a 1.15 para evitar el redimensionamiento en algunos navegadores */
+html {
+    font-size: 1em;
+    line-height: 1.15;
+}
+
+/* Estilos de la lista de descripciones */
+dl, dd, dt {
+    margin: 0;
+}
+
+/* Elimina los estilos predeterminados de la lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Ajustes de la fuente para una mejor legibilidad */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Ajuste de márgenes para la legibilidad del texto */
+p {
+    margin-bottom: 1.25em;
+}
+
+/* Ajustes de estilo para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Ajustes para la legibilidad de los elementos de formulario */
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+/* Corrige el estilo de las imágenes para que no cause problemas con la alineación del texto */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
